@@ -1,5 +1,6 @@
 body {
     background-color: #8ec63f;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .social {
@@ -10,6 +11,13 @@ body {
 }
 
 .jumbotron {
-    border-top: solid 2px black;
-    background-color: #f4f4f4;
+    border-top: solid 2px rgba(0, 0, 0, 0.171);
+    background-image: url("/images/sindy-sussengut-QH4rUktxEIc-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.container .card>img {
+    object-fit: cover;
+    max-width: 100%;
 }
