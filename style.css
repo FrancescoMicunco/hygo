@@ -21,6 +21,21 @@ h1 {
     color: var(--primary);
 }
 
+h2 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
 .gradient {
     background: rgb(171, 207, 55);
     background: linear-gradient(325deg, rgba(171, 207, 55, 1) 0%, rgba(90, 55, 207, 1) 78%);
@@ -40,12 +55,21 @@ h1 {
     h1 {
         font-size: 3rem;
     }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 0.75rem;
+    }
     p {
         text-align: center;
     }
     .jumbotron {
-        height: 20vh;
+        max-height: 500px;
         text-align: center;
+    }
+    .jumbo-description {
+        line-height: 1rem;
     }
 }
 
