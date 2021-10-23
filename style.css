@@ -13,27 +13,52 @@
 body {
     background-color: white;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
 }
 
 h1 {
-    font-size: 10rem;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
     color: var(--primary);
 }
 
 h2 {
-    font-size: 5rem;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 30px;
 }
 
 h4 {
-    font-size: 1.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .gradient {
@@ -49,28 +74,6 @@ h4 {
 .borderT {
     border: 5px solid;
     border-color: var(--terziary);
-}
-
-@media (max-width:576px) {
-    h1 {
-        font-size: 3rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-    h4 {
-        font-size: 0.75rem;
-    }
-    p {
-        text-align: center;
-    }
-    .jumbotron {
-        max-height: 500px;
-        text-align: center;
-    }
-    .jumbo-description {
-        line-height: 1rem;
-    }
 }
 
 .social {
@@ -93,6 +96,7 @@ h4 {
 
 .jumbotron::before {
     content: '';
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -108,4 +112,52 @@ h4 {
 div.container .card>img {
     object-fit: cover;
     max-width: 100%;
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        color: var(--primary);
+    }
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 26px;
+        line-height: 38px;
+        font-weight: 700;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .jumbotron {
+        height: 600px;
+        max-height: 800px;
+        text-align: center;
+    }
+    .jumbo-description {
+        line-height: 1.2rem;
+    }
 }
