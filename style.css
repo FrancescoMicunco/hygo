@@ -21,6 +21,14 @@
     padding-bottom: 2%;
 }
 
+.divisore {
+    color: var(--secondary);
+}
+
+.top-carousel {
+    max-height: 360px;
+}
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
 body {
     background-color: white;
@@ -130,6 +138,10 @@ div.container .card>img {
 
 ul li i {
     color: red;
+}
+
+footer {
+    padding-left: 20px;
 }
 
 footer i {
