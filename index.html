@@ -232,16 +232,30 @@
     <!-- =========   end funzionamento section ============== -->
 
     <!-- =========   start campi di utilizzo section ============== -->
-    <div class="container">
-        <h2>Campi di utilizzo</h2>
-        <div class="card">
-            <img src="/images/cellula.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">L'idrogeno è in grado di partecipare attivamente alla fase di combustione, migliorando le prestazioni e riducendo le temperature di esercizio</p>
+
+    <div class="">
+        <div class="container">
+            <div class="row my-md-4">
+                <div class="col-12 col-md-6 ">
+                    <img src="https://via.placeholder.com/400" alt="">
+                </div>
+
+                <div class="col-12 col-md-6" style="padding-top:5%">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 id="campidiutilizzo" class="text-center">Campi di utilizzo</h2>
+                        </div>
+                        <div class="col-12">
+                            <p>La nostra invenzione sfrutta il potere dell'idrogeno, migliorando il funzionamento del motore. Otterremo in questo modo, un risparmio di carburante fino al 30% e una riduzione del 99,9% delle emissioni di CO2</p>
+                            <p class="card-text">L'idrogeno è in grado di partecipare attivamente alla fase di combustione, migliorando le prestazioni e riducendo le temperature di esercizio</p>
+                            <p>I generatori di idrogeno, noti anche come elettrolizzatori, utilizzano l'elettricità fornita dalla batteria del veicolo per produrre idrogeno, che viene miscelato con il carburante dell'auto. Si ottiene così una maggiore qualità
+                                e pulizia della combustione</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
     <!-- =========   end campi di utilizzo section ============== -->
 
 
@@ -251,50 +265,102 @@
     <!-- =========   start problemi section ============== -->
     <div class="container bg-dark">
         <div class="row">
-            <h2 class="col-12  text-center white">Problemi</h2>
-            <div class="col-12 border-bottom divisore"></div>
-            <div class="col-sm-12 col-md-4 py-3 ">
-                <div class="card mx-2 ">
-                    <img src="/images/allagamento.jpg" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <p class="card-text white">L'inquinamento prodotto dalle attività dell'uomo, genera disastri ambientali, che rischiano di diventare irreversibili.</p>
-                    </div>
-                </div>
+            <h2 class="col-12  text-center white">Concorrenza</h2>
+
+            <h4 class="white mx-md-5 my-md-3">Esistono alcune aziende che si sono già attivate nella produzione di sistemi con pari funzionalità, ma finora incontrano i seguenti problemi, alcuni dei quali rendono gli impianti non convenienti economicamente, rispetto ad altre opzioni di
+                alimentazione. Ed ecco elencati alcuni dei più importanti elementi di difficoltà incontrati dalla concorrenza.
+            </h4>
+
+            <div class="col-12 col-md-6 border-bottom divisore">
+                <ul class="list-group">
+                    <li class="list-group-item">Necessità di modificare la taratura delle valvole</li>
+                    <li class="list-group-item">Necessità di modificare la taratura dell'elettronica</li>
+                    <li class="list-group-item">Installazione molto elaborata, che necessita di un complesso intervento tecnico</li>
+                    <li class="list-group-item">Elevato assorbimento di corrente dall'accumulatore</li>
+                    <li class="list-group-item">Assenza di dispositivi di controllo dell'umidità della miscela idrogeno/ossigeno</li>
+                    <li class="list-group-item">Elevato prezzo di vendita</li>
+                </ul>
             </div>
 
-            <div class="col-sm-12 col-md-4 py-3 ">
-                <div class="card mx-2 ">
-                    <img src="/images/ciminiere.jpg" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Surriscaldamento dell'atmosfera a causa delle emissioni delle fabbriche</p>
-                    </div>
-                </div>
+
+            <div class="col-12 col-md-6">
+                <img src="https://via.placeholder.com/400" alt="">
             </div>
 
-            <div class="col-sm-12 col-md-4 py-3 ">
-                <div class="card mx-2 ">
-                    <img src="/images/gas di scarico.jpg" class="card-img-top " alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Inquinamento atmosferico generato da gas di scarico dei motori endo-termici</p>
-                    </div>
-                </div>
-            </div>
+
+
+
+
         </div>
     </div>
 
     <!-- =========   end problemi section ============== -->
     <!-- =========   start i kit HyGo section ============== -->
+    <div class="container my-md-5">
+        <h2 class="col-12  text-center">I nostri Kit</h2>
+        <div class="col-12 border-bottom divisore"></div>
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <button class="btn border-white" onclick="toggle(kit500)">Kit 500</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn border-white" onclick="toggle(kit2500)">Kit 2500</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn border-white" onclick="toggle(kit5500)">Kit 5500</button>
+                        <!-- <a class="nav-link" href="#">Kit 5500</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn border-white" onclick="toggle(kitind)">Kit Industriale</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="position-relative" style="height: 300px; min-height: 100%;">
+                <div id="kit500" class="card-body position-absolute d-none c-kit">
+                    <h5 class="card-title">Kit 500</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div id="kit2500" class="card-body position-absolute d-none c-kit">
+                    <h5 class="card-title">Kit 2500</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div id="kit5500" class="card-body position-absolute d-none c-kit">
+                    <h5 class="card-title">Kit 5500</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div id="kitInd" class="card-body position-absolute d-none c-kit">
+                    <h5 class="card-title">Kit industriale</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let kit500 = document.getElementById("kit500")
+        let kit2500 = document.getElementById("kit2500")
+        let kit5500 = document.getElementById("kit5500")
+        let kitind = document.getElementById("kitInd")
+        let kitclass = document.querySelectorAll(".c-kit")
 
-
-
-
+        function toggle(kit) {
+            kitclass.forEach(element => {
+                if (element.classList.contains("d-none")) {
+                    kit.classList.add("d-block")
+                } else {
+                    element.classList.add("d-none")
+                    kit.classList.add("d-block")
+                }
+            });
+        }
+    </script>
 
     <!-- =========   end i kit HyGo section ============== -->
-
-
-
-
-
 
     <!-- =========   start testimonianze section ============== -->
     <div class="lightGreen mt-md-5">
