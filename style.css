@@ -39,7 +39,7 @@ body {
 
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 125px;
     font-weight: 600;
     line-height: 65px;
     color: var(--primary);
@@ -80,13 +80,22 @@ p {
     line-height: 20px;
 }
 
+a.btn {
+    background-color: var(--primaryII);
+    padding: 10px 20px;
+}
+
+a.bnt:hover {
+    background-color: var(--secondary);
+}
+
 .gradient {
     background: rgb(171, 207, 55);
     background: linear-gradient(325deg, rgba(171, 207, 55, 1) 0%, rgba(90, 55, 207, 1) 78%);
 }
 
 .bordedL {
-    border-left: 5px solid #1e0670;
+    border-left: 5px solid #5a37cf;
     padding-left: 15px
 }
 
@@ -107,7 +116,6 @@ p {
     position: relative;
     height: 100vh;
     border-top: solid 2px rgba(0, 0, 0, 0.171);
-    /* background-image: url("/images/prato.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,13 +139,21 @@ p {
 div.container .card>img {
     object-fit: cover;
     max-width: 100%;
+    margin-right: 10px;
 }
 
 
 /* Icons */
 
 ul li i {
+    font-size: 28px;
     color: red;
+    margin-right: 10px;
+}
+
+ul li i.bi-arrow-up-circle-fill {
+    font-size: 28px;
+    color: var(--primaryII)
 }
 
 footer {
@@ -149,11 +165,17 @@ footer i {
     min-height: 200px;
 }
 
+.svg {
+    font-size: 50px;
+    border: solid red 2px;
+}
+
 .cellula {
     background-image: url("./images/cellula.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 30%;
 }
 
 .dot {
