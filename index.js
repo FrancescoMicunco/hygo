@@ -11,3 +11,7 @@ fetch("https://air-quality.p.rapidapi.com/current/airquality?lon=-73.00597&lat=4
     .catch(err => {
         console.error(err);
     });
+
+$('#myModal').on('shown.bs.modal', function() {
+    $('#myInput').trigger('focus')
+})
