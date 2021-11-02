@@ -9,7 +9,7 @@ setInterval(() => {
     let counterCo2 = todaySecond * 32.4;
     let counterEuri = todaySecond * 0.00705 * 60;
     let counterLitri = todaySecond * 0.0176 * 60;
-    console.log(counterEuri)
+
     co2.innerText = `${Math.floor(counterCo2)}`
     euri.innerText = `${Math.floor(counterEuri)}`
     litri.innerText = `${Math.floor(counterLitri)}`
