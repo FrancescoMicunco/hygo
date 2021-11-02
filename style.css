@@ -117,7 +117,7 @@ a.bnt:hover {
 }
 
 .jumbotron {
-    background: linear-gradient(to top, #3204fdba, #9907facc), url("../engGroup.jpg");
+    background: linear-gradient(to top, #3204fdba, #9907facc), url("images/engGroup.jpg");
     position: relative;
     height: 100vh;
     border-top: solid 2px rgba(0, 0, 0, 0.171);
