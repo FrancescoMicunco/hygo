@@ -443,24 +443,88 @@ apartment
             </div>
         </div>
     </div>
+    <!-- start eco section -->
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>Sai quanto CO2 viene prodotto mediamente da un'auto di piccola/media cilindrata?</h2>
+                <p>Dati rilevati dai valori dichiarati dalle case di produzione sul libretto di circolazione. Si riferiscono ad una utilitaria media di bassa cilindrata, nuova,</p>
+                <p>che percorre in media 20.000 km in un anno</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Diesel</th>
+                            <th scope="col">Metano</th>
+                            <th scope="col">GPL</th>
+                            <th scope="col">Benzina</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">g/km</th>
+                            <td>92</td>
+                            <td>102</td>
+                            <td>97</td>
+                            <td>108</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">tot g/anno</th>
+                            <td>1.840.000</td>
+                            <td>2.040.000</td>
+                            <td>1.940.000</td>
+                            <td>2.160.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">tot g/sec</th>
+                            <td>0.05835</td>
+                            <td>0.06469</td>
+                            <td>0.06152</td>
+                            <td>0.06849</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">tot l/carb</th>
+                            <td>0.05835</td>
+                            <td>0.06469</td>
+                            <td>0.06152</td>
+                            <td>0.06849</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
     <!-- start counter -->
 
-    <div class="container container-fluid counter-section">
-        <div class="row text-center">
-            <div class="col-md-3 counter-container">
+    <div class="container container-fluid mt-5">
+        <div class="row ">
+            <div class="col-12">
+                <h2>Aiutaci a tenere pulito il pianeta</h2>
+                <p>Negli ultimi tre mesi, abbiamo finora venduto circa 500 kit e guarda in tempo reale, in che modo stiamo contribuendo al benessere dell'umanità.</p>
+            </div>
+
+            <div class="col-md-3 counter-container text-center counter-section">
                 <span class="material-icons text-center pt-4">local_gas_station</span>
-                <p class="counter counter-info-big white" id="co2"></p>
-                <p class="counter-info">g di CO2 risparmiato ogni secondo</p>
 
+                <p class="counter counter-info-big white" id="co2"> </p>
+                <p class="counter-info ">gr/sec</p>
+                <p class="counter-info">di CO2 risparmiato</p>
             </div>
-            <div class="col-md-3 counter-container">
+            <div class="col-md-3 counter-container text-center ml-2 counter-section">
                 <span class="material-icons text-center pt-4">euro</span>
-                <p class="counter counter-info-big white">444</p>
-                <p class="counter-info">Denaro risparmiato</p>
-
+                <p class="counter counter-info-big white" id="euri"></p>
+                <p class="counter-info">Denaro risparmiato ogni minuto</p>
             </div>
-
-
+            <div class="col-md-3 counter-container text-center ml-2 counter-section">
+                <span class="material-icons text-center pt-4">local_gas_station</span>
+                <p class="counter counter-info-big white" id="litri"></p>
+                <p class="counter-info">Litri di carburante risparmiato ogni minuto</p>
+            </div>
+            <div>
+                <p>Ipotesi di consumo medio km/l 18 e prezzo medio carburante €/l 1.6</p>
+            </div>
 
         </div>
     </div>
@@ -650,11 +714,9 @@ apartment
     </div>
 
     <script src="index.js "></script>
+    <script src="counter.js"></script>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous "></script>
 </body>
 

@@ -261,7 +261,6 @@ footer i {
 }
 
 .counter-section {
-    margin: 10%;
     color: rgb(199, 91, 4);
 }
 
@@ -273,9 +272,9 @@ span.material-icons {
 }
 
 .counter-info {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .counter-info-big {
-    font-size: 60px;
+    font-size: 40px;
 }
