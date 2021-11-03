@@ -213,14 +213,6 @@ footer i {
     border: solid red 2px;
 }
 
-.cellula {
-    background-image: url("./images/cellula.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 60%;
-}
-
 .dot {
     height: 160px;
     width: 160px;
