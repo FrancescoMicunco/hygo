@@ -274,7 +274,6 @@ footer i {
 
 .counter-container {
     background-color: rgb(47, 7, 100);
-    /* background-image: linear-gradient(rgba(49, 0, 255, 0.8), rgba(132, 5, 29, 0.8), url(./images/prato.jpg)); */
     background-size: cover;
     background-position: center;
 }
@@ -296,11 +295,4 @@ span.material-icons {
 
 .counter-info-big {
     font-size: 40px;
-}
-
-#campi {
-    background: linear-gradient(rgba(2, 2, 2, 0.822), rgba(33, 4, 102, 0.26)), url("./images/IMG_20210712_131104.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
