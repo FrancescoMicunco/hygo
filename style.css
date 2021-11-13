@@ -233,6 +233,10 @@ footer i {
     display: inline-block;
 }
 
+.thirdBullet {
+    right: -28%;
+}
+
 @media (max-width:576px) {
     h1 {
         font-family: 'Poppins', sans-serif;
@@ -316,6 +320,10 @@ footer i {
     }
     #subJumbotron {
         max-height: 100%;
+    }
+    .thirdBullet {
+        left: 0;
+        right: auto;
     }
 }
 
